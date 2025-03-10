@@ -1,0 +1,65 @@
+body {
+  color: #FDF0D5;
+  background-color: #FDF0D5;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-container {
+  font-family: "Ubuntu" sans-serif;
+  background-color: #669BBC;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid #003049;
+  border-radius: 100px;
+  width: 650px;
+  height: 550px;
+  
+}
+
+h1 {
+  color: #FDF0D5;
+  font-size: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #FDF0D5;
+  font-size: 50px;
+  margin: 5px;
+}
+
+p {
+  color: #FDF0D5;
+  font-size: 20px;
+  margin: 5px;
+}
+
+button {
+  color: #FDF0D5;
+  border: none;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  width: 200px;
+  margin: 5px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+#increment-btn {
+  background: #D62828;
+}
+
+#save-btn {
+  background: #76C893;
+}
